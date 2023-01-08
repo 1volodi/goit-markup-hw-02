@@ -1,0 +1,139 @@
+    :root{
+--prymary-font: 'Roboto';
+--logo-font-family: 'Raleway';
+--logo-font-weight: 800;
+--logo-font-size: 18px;
+--prymary-font-weight: 700;
+--prymary-font-size: 20px;
+--normal-font-weight: 500;
+--mini-font-weight: 400;
+--mini-font-size: 16px;
+--accent-color: #4D5AE5;
+--accent-background-color: #404BBF;
+--prymary-font-color:  #2E2F42;
+--address-font-color: #434455;
+--pressed-state-color: #FFFFFF;
+--btn-background-color: #F4F4FD;
+--background-color: #E5E5E5;
+--font-color: #E7E9FC
+}
+
+body{
+    background-color: 
+    var(--background-color);
+    color: var(--prymary-font-color);
+    font-family: var(--prymary-font),
+    sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title {
+    font-weight: 
+    var(--prymary-font-weight);
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.subtitle {
+    font-weight: 
+    var(--normal-font-weight);
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text {
+    font-weight: var(--mini-font-weight);
+    font-size: var(--mini-font-size);
+    line-height: 1.5;
+    color: var(--address-font-color);
+}
+
+/* ========HEADER=========== */
+.header {
+    background-color: 
+    var(--pressed-state-color);
+}
+.logo {
+    font-family: var(--logo-font-family);
+    font-weight: var(--logo-font-size);
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+.address {
+    color: var(--address-font-color);
+}
+/* ========HEADER/=========== */
+
+/* ========HERO=========== */
+.hero {
+    background-color:
+    var(--prymary-font-color);
+}
+.hero-title {
+    font-weight: 
+    var(--prymary-font-weight);
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--pressed-state-color);
+}
+/* ========HERO/=========== */
+
+/* ========BUTTONS========== */
+.link:hover,
+.link:focus {
+    color: var(--pressed-state-color);
+}
+.btn-order{
+    background: var(--accent-color);
+    color: var(--pressed-state-color);
+}
+.btn {
+    background: var(--btn-background-color);
+    color: var(--accent-color);
+}
+.btn:hover,
+.btn:focus {
+    background-color: 
+    var(--accent-background-color);
+    color: var(--pressed-state-color);
+}
+/* ========BUTTONS/======== */
+/* ==========TEAM========== */
+.team {
+    background-color: 
+    var(--btn-background-color);
+}
+/* ==========TEAM========== */
+/* ==========FOOTER========== */
+.footer {
+    background-color: 
+    var(--prymary-font-color);
+}
+.footer-text {
+    color: var(--font-color);
+}
+/* ==========FOOTER/========= */
