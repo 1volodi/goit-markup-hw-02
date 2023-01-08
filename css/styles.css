@@ -6,7 +6,6 @@
 --prymary-font-weight: 700;
 --prymary-font-size: 20px;
 --normal-font-weight: 500;
---mini-font-weight: 400;
 --mini-font-size: 16px;
 --accent-color: #4D5AE5;
 --accent-background-color: #404BBF;
@@ -19,11 +18,12 @@
 }
 
 body{
+    font-family: var(--prymary-font),
+    sans-serif;
     background-color: 
     var(--background-color);
     color: var(--prymary-font-color);
-    font-family: var(--prymary-font),
-    sans-serif;
+    
 }
 
 .list {
@@ -62,7 +62,6 @@ body{
 }
 
 .text {
-    font-weight: var(--mini-font-weight);
     font-size: var(--mini-font-size);
     line-height: 1.5;
     color: var(--address-font-color);
@@ -114,6 +113,7 @@ body{
 .btn {
     background: var(--btn-background-color);
     color: var(--accent-color);
+    cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
