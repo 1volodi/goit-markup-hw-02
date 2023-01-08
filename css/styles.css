@@ -32,6 +32,7 @@ body{
 
 .link {
     text-decoration: none;
+    color: var(--prymary-font-color);
 }
 
 .visually-hidden {
