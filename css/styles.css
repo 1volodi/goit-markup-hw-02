@@ -86,6 +86,7 @@ body{
     color: var(--pressed-color);
 }
 .address {
+    font-style: normal;
     color: var(--text-color);
 }
 /* ========HEADER/=========== */
@@ -114,11 +115,9 @@ body{
 .btn {
     background: var(--btn-background);
     color: var(--pressed-color);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -131,6 +130,7 @@ body{
     var(--accent-color);
     color: var(--background-color);
 }
+
 /* ========BUTTONS/======== */
 /* ==========TEAM========== */
 .team {
