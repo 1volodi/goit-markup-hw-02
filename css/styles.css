@@ -1,11 +1,4 @@
-    :root{
---prymary-font-weight: 700;
---prymary-font-size: 20px;
---logo-font-family: 'Raleway';
---logo-font-weight: 800;
---logo-font-size: 18px;
---normal-font-weight: 500;
---mini-font-size: 16px;
+    :root {
 --title-color: #2E2F42;
 --text-color: #434455;
 --accent-color: #404BBF;
@@ -31,10 +24,12 @@ body{
 .link {
     text-decoration: none;
 }
+
 .link:hover,
 .link:focus {
     color: var(--text-color);
 }
+
 .link:active{
     color: var(--pressed-color); ;
 }
@@ -53,8 +48,7 @@ body{
 }
 
 .title {
-    font-weight: 
-    var(--prymary-font-weight);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -63,15 +57,14 @@ body{
 }
 
 .subtitle {
-    font-weight: 
-    var(--normal-font-weight);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--title-color);
 }
 
 .text {
-    font-size: var(--mini-font-size);
+    font-size: 16px;
     line-height: 1.5;
     color: var(--text-color);
 }
@@ -84,8 +77,8 @@ body{
 /* ========HEADER=========== */
 
 .logo {
-    font-family: var(--logo-font-family);
-    font-weight: var(--logo-font-size);
+    font-family:'Raleway', sans-serif;
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
 }
@@ -103,8 +96,7 @@ body{
     var(--title-color);
 }
 .hero-title {
-    font-weight: 
-    var(--prymary-font-weight);
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -122,6 +114,10 @@ body{
 .btn {
     background: var(--btn-background);
     color: var(--pressed-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 .btn:hover,
