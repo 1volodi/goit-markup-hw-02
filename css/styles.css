@@ -71,7 +71,7 @@ body{
 
 .headings-light {
     background-color: 
-    var(--headings-light);
+    var(--background-color);
 }
 
 /* ========HEADER=========== */
@@ -107,41 +107,68 @@ body{
 /* ========HERO/=========== */
 
 /* ========BUTTONS========== */
-.btn-order{
+.btn-order {
     background: var(--pressed-color);
     color: var(--background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     cursor: pointer;
 }
-.btn {
+.btn-filter {
     background: var(--btn-background);
     color: var(--pressed-color);
     cursor: pointer;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
-.btn:hover,
-.btn:focus {
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-order:hover,
+.btn-order:focus {
     background-color: 
     var(--pressed-color);
     color: var(--background-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
 }
 .btn:active{
     background-color: 
     var(--accent-color);
     color: var(--background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* ========BUTTONS/======== */
+
 /* ==========TEAM========== */
 .team {
     background-color: 
     var(--btn-background);
 }
-/* ==========TEAM========== */
+.team-card {
+    background-color: 
+    var(--background-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+/* ==========TEAM/========== */
+
+/* ======OPPORTUNITIES====== */
+.project-card {
+    background-color: 
+    var(--background-color);
+    border: 1px solid #E7E9FC;
+}
+/* ======OPPORTUNITIES/====== */
+
 /* ==========FOOTER========== */
 .footer {
     background-color: 
     var(--title-color);
+}
+.logo-footer {
+    color: var(--btn-background);
 }
 .footer-text {
     color: var(--text-footer-color);
