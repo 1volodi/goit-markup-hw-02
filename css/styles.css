@@ -47,25 +47,22 @@ body {
 }
 .link-first {
   text-decoration: none;
-  font-style: normal;
   color: var(--color-primary);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .link-first:hover,
-.link-first:focus {
-  color: var(--link-secondary);
+.link-first:focus,
+.link-address:hover,
+.link-address:focus {
+  color: var(--link-hover);
 }
 .link-address {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-secondary);
-}
-.link-address:hover,
-.link-address:focus {
-  color: var(--link-hover-address);
 }
 /* =====main===== */
 .hero {
@@ -118,6 +115,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-features);
+}
+.features-title {
+  color: var(--color-primary);
 }
 /* =====footer===== */
 .footer {
